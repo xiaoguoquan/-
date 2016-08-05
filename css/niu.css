@@ -1,0 +1,278 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  font-size: 0;
+}
+html,
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  background: url(../img/bg.png) 0 0 no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+header {
+  *zoom: 1;
+}
+header:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  font-size: 0;
+}
+header .right {
+  float: right;
+}
+header .car {
+  margin-left: -7%;
+  margin-top: 5%;
+  width: 21.56%;
+  transform-origin: 100% 0  ;
+  animation: car 5s linear ;
+  animation-fill-mode: forwards;
+}
+header .right {
+  width: 72.34%;
+  background: url(../img/weilan.png) 0 100% no-repeat;
+  background-size: contain;
+  position: relative;
+  *zoom: 1;
+}
+header .right:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  font-size: 0;
+}
+header .right > img:nth-child(1) {
+  float: right;
+  width: 44.53%;
+  margin-right: 6%;
+  margin-top: 5%;
+}
+header .right > img:nth-child(2) {
+  width: 24.06%;
+  position: absolute;
+  top: 16%;
+  right: 22%;
+  margin-top: 5%;
+  transform-origin: 45% 0;
+  animation: swing 1s linear infinite;
+}
+header .right > img:nth-child(3) {
+  width: 3.6%;
+  margin: 0;
+  position: absolute;
+  top: 7%;
+  right: 23%;
+  animation-name: yun;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+section {
+  position: relative;
+  text-align: center;
+}
+section img:nth-child(2) {
+  width: 84.531%;
+  padding-top: 23.4375%;
+}
+section img:nth-child(1) {
+  width: 30%;
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 4%;
+  animation: niu 2s linear ;
+}
+section img:nth-child(3) {
+  width: 28.4375%;
+  position: absolute;
+  margin-top: 3%;
+  margin-left: -37%;
+  animation: niu 2s 1s linear;
+}
+section img:nth-child(4) {
+  width: 27.1875%;
+  position: absolute;
+  margin-top: 53%;
+  margin-left: -90%;
+  animation: niu 2s 2s linear;
+}
+section img:nth-child(5) {
+  width: 27.5%;
+  position: absolute;
+  margin-top: 55%;
+  margin-left: -26%;
+  animation: niu 2s 3s linear;
+}
+section img:nth-child(6) {
+  width: 36.09%;
+  position: absolute;
+  margin-top: 23.6%;
+  margin-left: -84.4%;
+}
+section img:nth-child(7) {
+  width: 10.15625%;
+  position: absolute;
+  margin-top: 23.4%;
+  margin-left: -64.7%;
+  transform-origin: -13% -28%;
+  animation: niu 2s linear ;
+}
+footer {
+  margin-top: 19.53%;
+  text-align: center;
+}
+footer img {
+  width: 57.96857%;
+  z-index: 5;
+  animation: bounce 2s  4s linear ;
+}
+footer .bigniu {
+  z-index: 1;
+  width: 38.4375%;
+  float: right;
+  margin-bottom: 5%;
+}
+@-webkit-keyframes yun {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+}
+@-o-keyframes yun {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+}
+@-moz-keyframes yun {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+}
+@keyframes yun {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes car {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0);
+  }
+  50% {
+    transform: translateY(115%) translateX(70%) rotate(-45deg);
+  }
+  100% {
+    transform: translateY(104%) translateX(250.25%) rotate(0);
+  }
+}
+@-o-keyframes car {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0);
+  }
+  50% {
+    transform: translateY(115%) translateX(70%) rotate(-45deg);
+  }
+  100% {
+    transform: translateY(104%) translateX(250.25%) rotate(0);
+  }
+}
+@-moz-keyframes car {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0);
+  }
+  50% {
+    transform: translateY(115%) translateX(70%) rotate(-45deg);
+  }
+  100% {
+    transform: translateY(104%) translateX(250.25%) rotate(0);
+  }
+}
+@keyframes car {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0);
+  }
+  50% {
+    transform: translateY(115%) translateX(70%) rotate(-45deg);
+  }
+  100% {
+    transform: translateY(104%) translateX(250.25%) rotate(0);
+  }
+}
+@-webkit-keyframes niu {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-o-keyframes niu {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-moz-keyframes niu {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes niu {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
